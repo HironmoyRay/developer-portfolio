@@ -6,7 +6,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-
     margin: 0px 200px;
 }
 
@@ -78,23 +77,26 @@ nav li {
 
 main {
     margin: 130px 230px 0px;
-    text-align: center;
-    background: #FFF8F3;
     border-radius: 10px;
 }
 
 .about-section {
+    text-align: center;
     padding: 130px 150px;
+    background: #FFF8F3;
+
 }
 
-.about-me {
+.section-title {
+    text-align: center;
     color: #181818;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
 }
 
-.about-description {
+.section-description {
+    text-align: center;
     color: #757575;
     font-size: 18px;
 }
@@ -112,7 +114,38 @@ main {
 }
 
 .info-description {
+    color: #474747;
     font-weight: 700;
     font-size: 20px;
-    color: #474747;
+
+}
+
+.what-i-do-section {
+    padding: 130px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill {
+    padding: 30px;
+    gap: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-descriptions {
+    color: #757575;
 }
